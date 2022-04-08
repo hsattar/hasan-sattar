@@ -6,3 +6,61 @@
     font-family: 'Bonheur Royale', cursive;
     font-size: 10rem;
 }
+
+#education-section {
+    padding-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.experience-section  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-container {
+    width: 60vw;
+    border: 1px solid var(--dark-text);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.date-container {
+    height: 100%;
+    line-height: 100px;
+    width: 150px;
+    align-self: center;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.education {
+    border: 3px solid #01ff0e;
+}
+
+
+.work {
+    border: 3px solid #0059ff;
+}
+
+.education-date {
+    border-right: 3px solid #01ff0e;
+}
+
+.work-date {
+    border-right: 3px solid #0059ff;
+}
+
+.experience-information {
+    width: 100%;
+    padding: 1rem;
+}

@@ -21,12 +21,12 @@ export default function HeroSection() {
     }, [])
 
     return (
-        <section className="flex items-center my-4">
+        <section className="flex flex-col lg:flex-row items-center my-4">
     
             <div className="flex-grow flex flex-col items-center justify-center">
                 <h1 className="text-7xl p-4 font-semibold"><span className="fancy-letter mr-3">H</span>asan <span className="fancy-letter mr-1">S</span>attar</h1>
                 <p className="text-3xl mb-12">{typeWriterText}</p>
-                <div className="social-icons text-4xl">
+                <div className="social-icons text-4xl mb-8 lg:mb-0">
                     <a className="mx-3" href="https://www.linkedin.com/in/hasan-sattar-010883150/" target="_blank"><i className="bi bi-linkedin"></i></a>
                     <a className="mx-3" href="https://www.facebook.com/hasan.sattar.921/" target="_blank"><i className="bi bi-facebook"></i></a>
                     <a className="mx-3" href="https://www.instagram.com/hasansattar11/" target="_blank"><i className="bi bi-instagram"></i></a>
