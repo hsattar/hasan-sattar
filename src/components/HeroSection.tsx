@@ -21,7 +21,7 @@ export default function HeroSection() {
     }, [])
 
     return (
-        <section className="flex flex-col lg:flex-row items-center my-4">
+        <section className="flex flex-col lg:flex-row items-center my-4 select-none">
     
             <div className="flex-grow flex flex-col items-center justify-center">
                 <h1 className="text-7xl p-4 font-semibold"><span className="fancy-letter mr-3">H</span>asan <span className="fancy-letter mr-1">S</span>attar</h1>
