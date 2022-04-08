@@ -4,3 +4,9 @@ interface IExperience {
     description: string
     type: string
 }
+
+interface ITechnologies {
+    technology: string
+    color: string
+    shadow: string
+}

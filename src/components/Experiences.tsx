@@ -21,9 +21,9 @@ export default function Experiences() {
 
     return (
         <div className="my-4 mt-8">
-        <h2 id="education-section" className="text-center text-3xl font-semibold">Work & Education</h2>
+        <h2 id="education-section" className="text-center text-3xl font-semibold">Experiences</h2>
         <section className="experience-section">
-            { experiences.map(experience => <SingleExperience {...experience} />) }
+            { experiences.map((experience, index) => <SingleExperience key={index} {...experience} />) }
         </section>
         </div>
     )

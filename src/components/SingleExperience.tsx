@@ -10,11 +10,11 @@ export default function SingleExperience({ year, title, description, type }: IPr
         <div className={`experience-container ${type === 'education' ? 'education' : 'work'}`}>
         
             <div className={`date-container ${type === 'education' ? 'education-date' : 'work-date'}`}>
-                <h3>{year}</h3>
+                <h3 className="font-medium">{year}</h3>
             </div>
 
             <div className="experience-information">
-                <h3>{title}</h3>
+                <h3 className="text-xl font-medium mb-2">{title}</h3>
                 <p>{description}</p>
             </div>
 
