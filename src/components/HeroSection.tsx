@@ -1,0 +1,44 @@
+import { useEffect, useState } from "react"
+
+export default function HeroSection() {
+
+    let typingPosition = 0
+    const aboutMeText = 'I Am A Full Stack Developer'
+    const typingSpeed = 50
+
+    const [typeWriterText, setTypeWriterText] = useState('')
+
+    const typeWriterEffect = () => {
+        if (typingPosition < aboutMeText.length) {
+            setTypeWriterText(prev => prev.concat(aboutMeText.charAt(typingPosition)))
+            typingPosition++
+            setTimeout(typeWriterEffect, typingSpeed)
+        }
+    }
+
+    useEffect(() => {
+        typeWriterEffect()
+    }, [])
+
+    return (
+        <section className="flex items-center my-4">
+    
+            <div className="flex-grow flex flex-col items-center justify-center">
+                <h1 className="text-7xl p-4 font-semibold"><span className="fancy-letter mr-3">H</span>asan <span className="fancy-letter mr-1">S</span>attar</h1>
+                <p className="text-3xl mb-12">{typeWriterText}</p>
+                <div className="social-icons text-4xl">
+                    <a className="mx-3" href="https://www.linkedin.com/in/hasan-sattar-010883150/" target="_blank"><i className="bi bi-linkedin"></i></a>
+                    <a className="mx-3" href="https://www.facebook.com/hasan.sattar.921/" target="_blank"><i className="bi bi-facebook"></i></a>
+                    <a className="mx-3" href="https://www.instagram.com/hasansattar11/" target="_blank"><i className="bi bi-instagram"></i></a>
+                    <a className="mx-3" href="https://twitter.com/Hasansattar11" target="_blank"><i className="bi bi-twitter"></i></a>
+                    <a className="mx-3" href="https://github.com/hsattar" target="_blank"><i className="bi bi-github"></i></a>
+                </div>
+            </div>
+
+            <div className="w-[35vw] flex justify-center">
+                <img className="h-[50vh] rounded-lg" src="/assets/hasan.jpg" alt="Picture of Hasan Sattar" />
+            </div>
+
+        </section>
+    )
+}
