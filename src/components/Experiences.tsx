@@ -9,7 +9,7 @@ export default function Experiences() {
         type: "education"
     }, {
         year: "2020 - 2021",
-        title: "SAE Institute - University",
+        title: "SAE Institute",
         description: "Studied Web Development.",
         type: "education"
     }, {

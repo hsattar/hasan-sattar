@@ -15,7 +15,7 @@ export default function CodingProjects() {
         link: "https://strive-bw-4.vercel.app",
         title: 'WhatsApp Clone',
         subtitle: "Team Project",
-        description: "A clone of the WhatsApp Web version that allows you to create groups and send messagesdd.",
+        description: "A clone of the WhatsApp Web version that allows you to create groups and send messages.",
         technologies: "React, Redux, Material UI, Node.js, Express, MongoDB, TypeScript",
         direction: "md:flex-row-reverse"
     }]

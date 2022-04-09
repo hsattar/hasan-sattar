@@ -9,7 +9,7 @@ export default function SingleExperience({ year, title, description, type }: IPr
     return (
         <div className={`flex items-center w-[90vw] lg:w-[75vw] my-4 rounded-md text-center border-[3px] ${type === 'education' ? 'border-green-300' : 'border-blue-500'}`}>
         
-            <div className={`date-container border-r-[3px] ${type === 'education' ? 'border-green-300' : 'border-blue-500'}`}>
+            <div className={`h-[100%] ${description.length === 24 && 'leading-[100px]'} ${description.length === 34 && 'leading-[125px]'} ${description.length === 56 && 'leading-[145px]'} sm:leading-[100px] w-[150px] border-r-[3px] ${type === 'education' ? 'border-green-300' : 'border-blue-500'}`}>
                 <h3 className="font-medium">{year}</h3>
             </div>
 

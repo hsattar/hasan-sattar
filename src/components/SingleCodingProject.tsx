@@ -11,7 +11,7 @@ interface IProps {
 export default function SingleCodingProject({ image, link, title, subtitle, description, technologies, direction }: IProps) {
     return (
         <section className={`flex flex-col items-center ${direction} p-4 select-none`}>
-            <div className="flex justify-center items-center w-[75%] md:w-[50%]">
+            <div className="flex justify-center items-center w-full md:w-[50%]">
                 <img src={image} className="w-full px-3 lg:w-[75%]" alt=""/>
             </div>
             <div className="flex flex-grow flex-col justify-between items-center text-center py-8">
