@@ -24,7 +24,7 @@ export default function HeroSection() {
         <section className="flex flex-col lg:flex-row items-center my-4 select-none">
     
             <div className="flex-grow flex flex-col items-center justify-center">
-                <h1 className="text-7xl p-4 font-semibold"><span className="fancy-letter mr-3">H</span>asan <span className="fancy-letter mr-1">S</span>attar</h1>
+                <h1 className="text-7xl p-4 font-semibold text-center"><span className="fancy-letter mr-3">H</span>asan <span className="fancy-letter mr-1">S</span>attar</h1>
                 <p className="text-3xl mb-12">{typeWriterText}</p>
                 <div className="social-icons text-4xl mb-8 lg:mb-0">
                     <a className="mx-3" href="https://github.com/hsattar" target="_blank"><i className="bi bi-github"></i></a>
@@ -32,7 +32,7 @@ export default function HeroSection() {
                 </div>
             </div>
 
-            <div className="w-[35vw] flex justify-center">
+            <div className="md:w-[35vw] flex justify-center">
                 <img className="h-[50vh] rounded-lg" src="/assets/hasan.jpg" alt="Picture of Hasan Sattar" />
             </div>
 

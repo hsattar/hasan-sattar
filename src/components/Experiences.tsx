@@ -20,8 +20,8 @@ export default function Experiences() {
     }]
 
     return (
-        <div className="my-4 mt-8 select-none">
-        <h2 id="education-section" className="text-center text-3xl font-semibold">Experiences</h2>
+        <div className="select-none">
+        <h2 id="education-section" className="text-center text-4xl font-semibold mb-8 mt-16">Experiences</h2>
         <section className="experience-section">
             { experiences.map((experience, index) => <SingleExperience key={index} {...experience} />) }
         </section>

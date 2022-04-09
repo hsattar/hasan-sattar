@@ -7,11 +7,6 @@
     font-size: 10rem;
 }
 
-#education-section {
-    padding-top: 1rem;
-    margin-bottom: 0.25rem;
-}
-
 .experience-section  {
     display: flex;
     flex-direction: column;

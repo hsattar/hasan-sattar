@@ -1,17 +1,18 @@
-import Experiences from "./components/Experiences";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
-import TechStack from "./components/TechStack";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+import Projects from './components/Projects'
 
 export default function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <HeroSection />
-      <TechStack />
-      <Experiences />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   )
 }

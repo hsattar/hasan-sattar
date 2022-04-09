@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom'
+
 export default function Navbar() {
     return (
         <nav className="flex justify-between items-center px-4 py-3 bg-gray-100 select-none">
-            <h3 className="text-4xl cursor-pointer">HS</h3>
+            <Link to="/" className="text-4xl cursor-pointer">HS</Link>
             <div>
-                <a className="mr-6" href="index.html">Tech</a>
-                <a className="mr-6" href="#hobbies-section">Projects</a>
-                <a href="#education-section">Experiences</a>
+                <Link className="mr-6" to="/">Home</Link>
+                <Link className="mr-6" to="/projects">Projects</Link>
             </div>
         </nav>
     )
