@@ -10,3 +10,10 @@ interface ITechnologies {
     color: string
     shadow: string
 }
+
+interface IClass {
+    image: string
+    link: string
+    title: string
+    students: string
+}

@@ -1,5 +1,9 @@
+import SkillShareClasses from "./SkillShareClasses"
+
 export default function Projects() {
     return (
-        <div>Projects</div>
+        <>
+            <SkillShareClasses />
+        </>
     )
 }
