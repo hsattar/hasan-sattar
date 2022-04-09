@@ -10,9 +10,9 @@ interface IProps {
 
 export default function SingleCodingProject({ image, link, title, subtitle, description, technologies, direction }: IProps) {
     return (
-        <section className={`flex ${direction} p-4 select-none`}>
-            <div className="flex justify-center items-center min-w-[50%] max-w-[50%]">
-                <img src={image} className="w-[65%]" alt=""/>
+        <section className={`flex flex-col items-center ${direction} p-4 select-none`}>
+            <div className="flex justify-center items-center w-[75%] md:w-[50%]">
+                <img src={image} className="w-full px-3 lg:w-[75%]" alt=""/>
             </div>
             <div className="flex flex-grow flex-col justify-between items-center text-center py-8">
                 <a href={link} target="_blank" rel="noreferrer">
