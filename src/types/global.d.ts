@@ -15,7 +15,10 @@ interface ICodingProjects {
     image: string
     link: string
     title: string
+    subtitle: string
     description: string
+    technologies: string
+    direction: string
 }
 
 interface IClass {

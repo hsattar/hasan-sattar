@@ -3,25 +3,26 @@ import SingleCodingProject from "./SingleCodingProject"
 export default function CodingProjects() {
 
     const codingProjects: ICodingProjects[] = [{
-        image: '/assets/finance-planner.jpg',
-        link: "https://www.skillshare.com/codingProjects/How-to-Create-a-Finance-Planner-Personal-Budgeting-in-Microsoft-Excel/2055873377",
-        title: 'Create A Finance Planner',
-        description: "138"
+        image: '/assets/code-buddy.jpg',
+        link: "https://code-buddy.vercel.app",
+        title: 'Code Buddy',
+        subtitle: "Solo Project",
+        description: "Code Buddy is a no-code platform that allows you to create websites and is simple to use.",
+        technologies: "React, Redux, Tailwind CSS, Node.js, Express, MongoDB, TypeScript",
+        direction: "flex-row"
     }, {
-        image: '/assets/food-planner.jpg',
-        link: "https://www.skillshare.com/codingProjects/How-To-Create-a-Random-Food-Meal-Planner-in-Microsoft-Excel/538955742",
-        title: 'Create A Meal Planner',
-        description: "43"
-    }, {
-        image: '/assets/payroll-calculator.jpg',
-        link: "https://www.skillshare.com/codingProjects/How-to-Create-a-Payroll-Calculator-in-Microsoft-Excel/648854705",
-        title: 'Create A Payroll Calculator',
-        description: "44"
+        image: '/assets/whatsapp.jpg',
+        link: "https://strive-bw-4.vercel.app",
+        title: 'WhatsApp Clone',
+        subtitle: "Team Project",
+        description: "A clone of the WhatsApp Web version that allows you to create groups and send messages to your friends.",
+        technologies: "React, Redux, Material UI, Node.js, Express, MongoDB, TypeScript",
+        direction: "flex-row-reverse"
     }]
 
     return (
         <>
-        <h2 className="text-center text-4xl font-semibold my-10 select-none">Coding Projects</h2>
+        <h2 className="text-center text-4xl font-semibold my-8 select-none">Coding Projects</h2>
         { codingProjects.map((project, index) => <SingleCodingProject key={index} {...project} />) }
         </>
     )
