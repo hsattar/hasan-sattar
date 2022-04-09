@@ -1,3 +1,9 @@
+interface ITechnologies {
+    technology: string
+    color: string
+    shadow: string
+}
+
 interface IExperience {
     year: string
     title: string
@@ -5,10 +11,11 @@ interface IExperience {
     type: string
 }
 
-interface ITechnologies {
-    technology: string
-    color: string
-    shadow: string
+interface ICodingProjects {
+    image: string
+    link: string
+    title: string
+    description: string
 }
 
 interface IClass {
