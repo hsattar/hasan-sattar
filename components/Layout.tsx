@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Navbar from "./Navbar"
 
 interface IProps { 
@@ -9,6 +10,7 @@ export default function Layout({ children }: IProps) {
         <>
         <Navbar />
         { children }
+        <Footer />
         </>
     )
 }
