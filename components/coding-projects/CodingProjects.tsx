@@ -9,3 +9,6 @@ export default function CodingProjects() {
         </>
     )
 }
+
+// md:flex-row
+// md:flex-row-reverse

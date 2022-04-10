@@ -13,3 +13,28 @@ export default function TechStack() {
         </>
     )
 }
+
+// bg-orange-500
+// shadow-orange-500/50
+// bg-blue-400
+// shadow-blue-400/50
+// bg-purple-600
+// shadow-purple-600/50
+// bg-sky-400
+// shadow-sky-400/50
+// bg-yellow-300
+// shadow-yellow-300/50
+// bg-blue-500
+// shadow-blue-500/50
+// bg-blue-500
+// shadow-blue-500/50
+// bg-purple-500
+// shadow-purple-500/50
+// bg-green-500
+// shadow-green-500/50
+// bg-gray-900
+// shadow-gray-900/50
+// bg-green-600
+// shadow-green-600/50
+// bg-gray-900
+// shadow-gray-900/50
