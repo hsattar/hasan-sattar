@@ -8,7 +8,7 @@ const Projects: NextPage = () => {
     <>
         <ReusableHead title="Hasan Sattar - Projects" />
         <CodingProjects />
-        <SkillShareClasses />   
+        {/* <SkillShareClasses />    */}
     </>
   )
 }
