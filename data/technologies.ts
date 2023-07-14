@@ -15,6 +15,10 @@ const technologies:ITechnologies[] = [{
     color: 'bg-sky-400',
     shadow: 'shadow-sky-400/50'
 }, {
+    technology: 'Python',
+    color: 'bg-blue-500',
+    shadow: 'shadow-blue-500/50'
+}, {
     technology: 'JavaScript',
     color: 'bg-yellow-300',
     shadow: 'shadow-yellow-300/50'
@@ -31,6 +35,10 @@ const technologies:ITechnologies[] = [{
     color: 'bg-purple-500',
     shadow: 'shadow-purple-500/50'
 }, {
+    technology: 'Next.js',
+    color: 'bg-gray-900',
+    shadow: 'shadow-gray-900/50'
+}, {
     technology: 'Node.js',
     color: 'bg-green-500',
     shadow: 'shadow-green-500/50'
@@ -43,7 +51,31 @@ const technologies:ITechnologies[] = [{
     color: 'bg-green-600',
     shadow: `shadow-green-600/50`
 }, {
+    technology: 'PostgreSQL',
+    color: 'bg-blue-500',
+    shadow: 'shadow-blue-500/50'
+}, {
     technology: 'Vercel',
+    color: 'bg-gray-900',
+    shadow: 'shadow-gray-900/50'
+}, {
+    technology: 'Jest',
+    color: 'bg-orange-500',
+    shadow: 'shadow-orange-500/50'
+}, {
+    technology: 'Pytest',
+    color: 'bg-blue-500',
+    shadow: 'shadow-blue-500/50'
+}, {
+    technology: 'Digital Ocean',
+    color: 'bg-blue-500',
+    shadow: 'shadow-blue-500/50'
+}, {
+    technology: 'AWS',
+    color: 'bg-orange-500',
+    shadow: 'shadow-orange-500/50'
+}, {
+    technology: 'DevOps',
     color: 'bg-gray-900',
     shadow: 'shadow-gray-900/50'
 }]
