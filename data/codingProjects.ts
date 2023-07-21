@@ -3,7 +3,7 @@ const codingProjects: ICodingProjects[] = [{
     link: "https://smithsair.co.uk",
     title: 'Smiths Air',
     subtitle: "Solo Project",
-    description: "A workplace communication PWA. Live Production App - 50 Users, ~ 20 DAU.",
+    description: "A workplace communication Progressive Web App. Live App with 50 Users",
     technologies: "Next.js, Redux, Tailwind CSS, Node.js, Express, MongoDB, TypeScript, Jest",
     direction: "md:flex-row"
 }, {
