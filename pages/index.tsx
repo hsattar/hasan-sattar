@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <>
         <HeroSection />
         <TechStack />
-        <ReusableHead title="Hasan Sattar - Projects" />
+        <ReusableHead title="Hasan Sattar" />
         <CodingProjects />
         <Experiences />
     </>
