@@ -1,6 +1,6 @@
 const codingProjects: ICodingProjects[] = [{
     image: '/assets/smiths-air.png',
-    link: "https://smithsair.co.uk",
+    link: "https://youtu.be/biNf-jZZ9gk",
     title: 'Smiths Air',
     subtitle: "Solo Project",
     description: "A workplace communication Progressive Web App. Live App with 50 Users",
