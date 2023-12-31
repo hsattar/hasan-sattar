@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
+import './globals.css'
 
 interface IProps { 
     children: React.ReactNode
