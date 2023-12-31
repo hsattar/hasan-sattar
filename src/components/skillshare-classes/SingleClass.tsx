@@ -1,10 +1,3 @@
-interface IProps {
-    image: string
-    link: string
-    title: string
-    students: string
-}
-
 export default function SingleClass({ image, link, title, students }: IProps) {
     return (
         <div className="flex flex-col">
@@ -15,4 +8,11 @@ export default function SingleClass({ image, link, title, students }: IProps) {
             </a>
         </div>
     )
+}
+
+interface IProps {
+    image: string
+    link: string
+    title: string
+    students: string
 }

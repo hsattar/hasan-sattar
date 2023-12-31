@@ -1,13 +1,3 @@
-interface IProps {
-    image: string
-    link: string
-    title: string
-    subtitle: string
-    description: string
-    technologies: string
-    direction: string
-}
-
 export default function SingleCodingProject({ image, link, title, subtitle, description, technologies, direction }: IProps) {
     return (
         <section className={`flex flex-col items-center ${direction} p-4 select-none`}>
@@ -24,4 +14,14 @@ export default function SingleCodingProject({ image, link, title, subtitle, desc
             </div>
         </section>
     )
+}
+
+interface IProps {
+    image: string
+    link: string
+    title: string
+    subtitle: string
+    description: string
+    technologies: string
+    direction: string
 }

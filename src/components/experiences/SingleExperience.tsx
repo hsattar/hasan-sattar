@@ -1,10 +1,3 @@
-interface IProps {
-    year: string
-    title: string
-    description: string
-    type: string
-}
-
 export default function SingleExperience({ year, title, description, type }: IProps) {
     return (
         <div className={`flex items-center w-[90vw] lg:w-[75vw] my-4 rounded-md text-center border-[3px] ${type === 'education' ? 'border-green-300' : 'border-blue-500'}`}>
@@ -20,4 +13,11 @@ export default function SingleExperience({ year, title, description, type }: IPr
 
         </div>
     )
+}
+
+interface IProps {
+    year: string
+    title: string
+    description: string
+    type: string
 }
