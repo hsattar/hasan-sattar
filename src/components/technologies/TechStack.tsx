@@ -1,5 +1,5 @@
 import SingleTechnology from "./SingleTechnology"
-import technologies from '../../data/technologies'
+import technologies from '../../../data/technologies'
 
 export default function TechStack() {
     return (

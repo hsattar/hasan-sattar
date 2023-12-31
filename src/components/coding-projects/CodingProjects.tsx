@@ -1,5 +1,5 @@
 import SingleCodingProject from "./SingleCodingProject"
-import codingProjects from '../../data/codingProjects'
+import codingProjects from '../../../data/codingProjects'
 
 export default function CodingProjects() {
     return (

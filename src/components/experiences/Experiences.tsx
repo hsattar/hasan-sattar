@@ -1,5 +1,5 @@
 import SingleExperience from "./SingleExperience"
-import experiences from '../../data/experiences'
+import experiences from '../../../data/experiences'
 
 export default function Experiences() {
     return (

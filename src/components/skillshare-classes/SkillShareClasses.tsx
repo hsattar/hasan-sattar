@@ -1,5 +1,5 @@
 import SingleClass from "./SingleClass"
-import classes from '../../data/classes'
+import classes from '../../../data/classes'
 
 export default function SkillShareClasses() {
     return (
