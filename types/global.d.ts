@@ -20,10 +20,3 @@ interface ICodingProjects {
     technologies: string
     direction: string
 }
-
-interface IClass {
-    image: string
-    link: string
-    title: string
-    students: string
-}
